@@ -1,0 +1,200 @@
+{
+  "usuarios": [
+    {
+      "id": "Mario",
+      "cod": "1",
+      "email": "mario01@email.com",
+      "hashedPassword": "$2a$10$NLWfjmpsCJ3SmroD46h0U.JxAieYVKAm0e5gShN7WcXQ5h7Yr9O2y",
+      "fone": "14 998216619",
+      "datanascimento": "30/07/1983",
+      "categoria": "Administrador"
+    }
+  ],
+  "vendas": [
+    {
+      "nome": "Guarana Antartica ",
+      "preco": "15.20",
+      "data": "23/09/2024",
+      "total": "15.20",
+      "vendan": "1",
+      "valorpag": 0,
+      "troco": 0,
+      "mes": "atual",
+      "id": 1
+    },
+    {
+      "nome": "Feijão Guarani",
+      "preco": "18.25",
+      "data": "23/09/2024",
+      "total": "18.25",
+      "vendan": "1",
+      "valorpag": 0,
+      "troco": 0,
+      "mes": "atual",
+      "id": 2
+    },
+    {
+      "nome": "Total da venda nº:1",
+      "vendan": "1",
+      "preco": 0,
+      "total": "33.45",
+      "valorpag": "40.00",
+      "mes": "Setembro",
+      "data": "23/09/2024",
+      "formapag": "Dinheiro",
+      "troco": "6.55",
+      "id": 3
+    }
+  ],
+  "atual": [
+    {
+      "numero": "1",
+      "id": 1
+    }
+  ],
+  "catproduto": [
+    {
+      "nome": "Alimentos",
+      "id": 1
+    },
+    {
+      "nome": "Bebidas",
+      "id": 2
+    }
+  ],
+  "produtos": [
+    {
+      "id": 1,
+      "nome": "Feijão Guarani",
+      "preco": "18.25",
+      "qtd": 159,
+      "categoria": "Alimentos",
+      "data_cadastro": "23/09/2024",
+      "codigo": "01"
+    },
+    {
+      "id": 2,
+      "nome": "Guarana Antartica ",
+      "preco": "15.20",
+      "qtd": 149,
+      "categoria": "Bebidas",
+      "data_cadastro": "23/09/2024",
+      "codigo": "2"
+    }
+  ],
+  "despesas": [
+    {
+      "nome": "Energia Elétrica ",
+      "custo": "60.00",
+      "data_pgto": "23/09/2024",
+      "data_cad": "23/09/2024",
+      "total": "60.00",
+      "id": 1
+    },
+    {
+      "nome": "Agua",
+      "custo": "56.36",
+      "data_pgto": "23/09/2024",
+      "data_cad": "23/09/2024",
+      "total": "56.36",
+      "id": 2
+    },
+    {
+      "nome": "Telefone e Internet ",
+      "custo": "100.00",
+      "data_pgto": "13/09/2024",
+      "data_cad": "23/09/2024",
+      "total": "100.00",
+      "id": 3
+    }
+  ],
+  "compras": [
+    {
+      "nome": "Feijão Guarani",
+      "qtd": "160",
+      "custo": "15.00",
+      "total": "2400.00",
+      "data_cad": "23/09/2024",
+      "formapag": "Boleto",
+      "data_pag": "23/09/2024",
+      "mes": "Setembro",
+      "fornecedor": "Souza s/a",
+      "valorpag": "2400.00",
+      "troco": null,
+      "id": 1
+    },
+    {
+      "nome": "Guarana Antartica ",
+      "qtd": "150",
+      "custo": "13.00",
+      "total": "1950.00",
+      "data_cad": "23/09/2024",
+      "formapag": "Dinheiro",
+      "data_pag": "23/09/2024",
+      "mes": "Setembro",
+      "fornecedor": "Gomes",
+      "troco": "50.00",
+      "valorpag": "2000.00",
+      "id": 2
+    }
+  ],
+  "resultados": [],
+  "clientes": [
+    {
+      "nome": "Antonio da Silva Bueno",
+      "email": "antoniosilva@email.com",
+      "fone": "14 99663325",
+      "data_cad": "23/09/2024",
+      "bairro": "Peabiru",
+      "endereco": "Rua Antonio Alves ",
+      "cpf": "33555558974",
+      "id": 1
+    },
+    {
+      "nome": "Fabiana Leite ",
+      "email": "fabianaleite@email.com",
+      "fone": "14 99663312",
+      "data_cad": "23/09/2024",
+      "bairro": "Centro ",
+      "endereco": "Rua Ribas 200",
+      "cpf": "123456789",
+      "id": 2
+    }
+  ],
+  "fornecedor": [
+    {
+      "nome": "Souza s/a",
+      "endereco": "Rua Amando de Barros - Centro",
+      "numero": "500",
+      "cep": "18200300",
+      "cidade": "Botucatu SP",
+      "email": "souza@email.com",
+      "fone": "14 333333",
+      "datacad": "23/09/2024",
+      "catforn": "Alimentos",
+      "id": 1
+    },
+    {
+      "nome": "Gomes",
+      "endereco": "Rua Jose da Silva - Vila Souto",
+      "comp": "A - 312",
+      "cep": "20000",
+      "cidade": "Duartina SP",
+      "email": "gomes@email.com",
+      "fone": "14 33665522",
+      "datacad": "23/09/2024",
+      "catforn": "Bebidas",
+      "id": 2
+    }
+  ],
+  "catfornecedor": [
+    {
+      "nome": "Alimentos",
+      "id": 1
+    },
+    {
+      "nome": "Bebidas",
+      "id": 2
+    }
+  ]
+}
