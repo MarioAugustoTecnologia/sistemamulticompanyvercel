@@ -16,4 +16,3 @@ server.use(cors({origin: ["https://sistemamulticompanyvercel.vercel.app/"],
 
 server.listen(port);
 
-module.exports = server
